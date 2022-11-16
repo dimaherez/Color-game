@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ColorGame</string>
+    <string name="best">Best: %d</string>
+    <string name="new_best">NEW BEST!</string>
+</resources>

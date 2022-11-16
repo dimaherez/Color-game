@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Click the Colour and"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Not The Word!"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="64sp" />
+
+    <TextView
+        android:id="@+id/color_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="COLOR"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/box1"
+            style="@style/boxStyle"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:text="Box1"  />
+
+        <TextView
+            android:id="@+id/box2"
+            style="@style/boxStyle"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:text="Box2" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/box3"
+            style="@style/boxStyle"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:text="Box3" />
+
+        <TextView
+            android:id="@+id/box4"
+            style="@style/boxStyle"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:text="Box4" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ProgressBar
+        android:id="@+id/timerProgressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:max="50"
+        android:progress="50" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

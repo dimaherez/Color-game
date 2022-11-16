@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/color_squares">
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_blur"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#000000"
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="1.6"
+            android:text="Welcome!"
+            android:textAllCaps="true"
+            android:textColor="@color/light_grey"
+            android:textSize="64dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.219" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your name:"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="32dp"
+            android:textColor="@color/light_grey"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:hint="Your Name"
+            android:textColorHint="@color/hint"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/go_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="GO!"
+            android:textSize="48dp"
+            android:textColor="@color/light_grey"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="boxStyle">
+        <item name="android:background">@drawable/bg_box</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/background</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="elevation">10dp</item>
+    </style>
+</resources>
